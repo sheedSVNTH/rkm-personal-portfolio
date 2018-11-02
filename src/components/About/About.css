@@ -1,0 +1,103 @@
+.about{
+	background-color: #f2f2f2;
+	min-height: 80vh;
+}
+
+#row1 {
+	display: inline-flex;
+}
+
+.card {
+	margin-top: 10px; 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    transition: 0.3s;
+    border-radius: 5px; 
+	background-color: white; 
+}
+
+.card:hover{
+    transform: scale(1.03); /** Value over 1.0 will zoom-in**/
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+}
+
+#photo-card{
+	margin-right: 40px; 
+	padding: 5px 10px 5px 10px; 
+}
+
+#title {
+	font-size: 22px; 
+	font-weight: 300;
+	color: 	darkgrey;
+}
+
+h4{
+	font-weight: 300; 
+	font-size: 27px;
+	padding-top: 10px; 
+}
+
+h3{
+	font-weight: bold; 
+	font-size: 22px; 
+}
+
+
+#about-card{
+	padding: 0px 10px 1px 10px; 
+	width: 700px; 
+	word-wrap: break-word;
+	text-align: left; 
+}
+
+#about-text{
+	font-size: 25px; 
+	font-weight: 300;
+	color: 	darkgrey;
+}
+
+img {
+	margin-top: 10px; 
+    border-radius: 5px 5px 5px 5px;
+	box-shadow: 0 4px 10px 0 #282c34;
+	width: 90%; 
+}
+
+#location i {
+	color: aquamarine;
+}
+
+#contact-btn a{
+	text-decoration: none; 
+	font-weight: 200; 
+	color: black; 
+	background-color: aquamarine;
+	border: 1.5px solid black; 
+	padding: 5px; 
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	display: inline-block;	
+	width: 50%; 
+}
+
+#contact-btn a:hover{
+	background-color: rgba(0,0,0,0.4);
+	font-size: 25px; 
+	border: 2px solid black; 
+	color: aquamarine;
+	font-weight: 300; 
+}
+
+
+#album-card{
+	padding: 0 10px 0px 10px; 
+	width: 80%;
+	margin: auto; 
+	margin-top: 50px;
+	margin-bottom: 20px; 
+
+}
+
+
+
+

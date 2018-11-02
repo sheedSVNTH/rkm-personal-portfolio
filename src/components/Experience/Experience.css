@@ -1,0 +1,163 @@
+.display {
+  background-color: #f2f2f2;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;	
+}
+
+.row1 {
+	display: flex;
+}
+
+#heading{
+	text-align: center; 
+	width: 95%; 
+	display: inline-flex;
+}
+
+#prof-card h4, #exp-title{
+	padding-top: 10px; 
+	font-weight: 300; 
+	font-size: 30px; 
+}
+
+#btn-container{
+	margin-left: 250px; 
+}
+
+#resume-btn a{
+	text-decoration: none; 
+	font-weight: 200; 
+	color: black; 
+	background-color: aquamarine;
+	border: 1.5px solid black; 
+	text-transform: uppercase;
+	display: inline-block;
+	text-align: center; 
+	width: 60%; 
+	padding: 2px; 
+	margin-bottom: 5px;
+	margin-top: 40px; 
+}
+
+#resume-btn a:hover{
+	background-color: rgba(0,0,0,0.4);
+	font-size: 23px; 
+	border: 2px solid black; 
+	color: aquamarine;
+	font-weight: 300; 
+}
+
+.progress-bar{
+	background-color: rgb(236,239,239);
+	margin-right: 10px;
+	margin-left: 10px; 
+	margin-top: 10px; 
+	font-size: 15px; 
+	text-align: left;
+	border: .5px solid darkgray;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+}
+
+.progress-bar:hover{
+	border: .8px solid black; 
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+
+.bar{
+	padding-left: 10px;
+	background-color: aquamarine;
+	height: 20px; 
+	border-right: 1px solid black; 
+	font-weight: 200;
+}
+
+.bar:hover{
+	height: 25px; 	
+	font-size: 19px; 
+}
+
+#js{
+	transition: width 2s ease-in; 
+}
+
+#mongoose {
+	transition: width 2s ease-in; 
+}
+
+#express {
+	transition: width 2s ease-in; 
+}
+
+#react{
+	transition: width 2s ease-in; 
+}
+
+#node {
+	transition: width 2s ease-in; 
+}
+
+#html{
+	transition: width 2s ease-in; 
+}
+
+#css{
+	transition: width 2s ease-in; 
+}
+
+#git{
+	transition: width 2s ease-in; 
+}
+
+#graphics{
+	transition: width 2s ease-in; 
+}
+
+#pm{
+	transition: width 1.5s ease-in; 
+}
+
+#title {
+	font-size: 22px;
+	font-weight: 300;
+	color: 	darkgrey;
+}
+
+#exp-card{
+	padding: 0 10px 0 10px; 
+	width: 700px; 
+	word-wrap: break-word;
+	text-align: left; 
+	margin-bottom: 15px; 
+}
+
+#exp-text{
+	font-size: 20px; 
+	font-weight: 300;
+	color: 	gray;
+}
+
+#exp-card:hover{
+	font-weight: bold; 
+}
+
+#prof-card {
+	margin-top: 10px; 
+	margin-bottom: 30px;
+	padding-bottom: 25px; 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    transition: 0.3s;
+    border-radius: 5px; 
+	background-color: white; 
+}
+
+#prof-card:hover{
+    transform: scale(1.03); /** Value over 1.0 will zoom-in**/
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+}
+
+

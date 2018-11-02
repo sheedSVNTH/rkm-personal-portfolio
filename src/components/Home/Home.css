@@ -1,0 +1,21 @@
+.home{
+  background-color: #f2f2f2;
+  min-height: 80vh;
+
+}
+
+.card {
+	margin-top: 10px; 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    transition: 0.3s;
+    border-radius: 5px; 
+	background-color: white; 
+}
+
+.card:hover{
+    transform: scale(1.03); /** Value over 1.0 will zoom-in**/
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+}
+
+
+
