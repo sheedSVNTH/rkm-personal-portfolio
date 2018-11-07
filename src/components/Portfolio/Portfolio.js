@@ -5,6 +5,8 @@ import About from '../About/About';
 import Experience from '../Experience/Experience';
 import Projects from '../Projects/Projects';
 
+import logo from '../../media/rk-logo.png'
+
 class Portfolio extends Component {
 	constructor(props){
 		super(props);
@@ -15,7 +17,7 @@ class Portfolio extends Component {
 	}
 	
 	handleClick(e){
-		switch(e.target.value){
+		switch(e.target.id){
          case 'About':
              this.setState({activePage: <About />});
              break;
@@ -25,23 +27,25 @@ class Portfolio extends Component {
 		case 'Projects':
 				this.setState({activePage: <Projects />});
              break;
-         case 'Home':
-				this.setState({activePage: <Home />});
+         case 'logo':
+				this.setState({activePage: <About />});
 		}
 	}
   render() {
     return (
       <div className="Portfolio">
         <header id="header" className="Portfolio-header">
-			<button id="logo" onClick={this.handleClick} value='Home' className="Portfolio-link">RKM Design</button>
+		<a><img id='logo' onClick={this.handleClick} className="logo-img" src={logo}  alt="rkmLogo" /></a>
 			<div className="nav-menu">NavMenuIcon</div>
 			<nav>
+
 				<ul>
-					<li><button onClick={this.handleClick} value='About' className="Portfolio-link">About</button></li>
-					<li><button onClick={this.handleClick} value='Experience' className="Portfolio-link">Experience</button></li>
-					<li><button onClick={this.handleClick} value='Projects' className="Portfolio-link">Portfolio</button></li>
+
+					<li><button onClick={this.handleClick} id='About' className="Portfolio-link">About</button></li>
+					<li><button onClick={this.handleClick} id='Experience' className="Portfolio-link">Experience</button></li>
+					<li><button onClick={this.handleClick} id='Projects' className="Portfolio-link">Portfolio</button></li>
 					<li className="social-icons">
-						<ul>
+				<ul>
 							<li><a href="https://www.linkedin.com/in/rasheed-k-muslimani-p-e-3967a3b0/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
 							<li><a href="https://www.instagram.com/seventh_level_apparel/" target="_blank"><i class="fab fa-instagram"></i></a></li>
 							<li><a href="https://github.com/sheedSVNTH" target="_blank"><i class="fab fa-github-square"></i></a></li>

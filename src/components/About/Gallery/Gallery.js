@@ -37,10 +37,7 @@ class Gallery extends Component {
 		case '6':
 				this.setState({activeImage: image6});
 		}
-		
-		//const newImg = 'image' + e.target.id;
-		//console.log('image' + e.target.id);
-		//this.setState({activeImage: 'image' + e.target.id});
+
 	}
 	
   render() {
