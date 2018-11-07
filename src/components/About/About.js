@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import image from '../../media/rkm-profile.jpg';
-//import ImgCarousel from '../About/Gallery/ImgCarousel';
 import Gallery from '../About/Gallery/Gallery';
 
 import './About.css';
@@ -16,7 +15,7 @@ class About extends Component {
 				<img src={image} alt="Avatar" />
 				<div className="container">
 					<h3>Rasheed K. Muslimani, P.E.</h3> 
-					<h3 id="title">PM || Engineer || Software Dev.</h3> 
+					<h3 id="title">Software Developer || Project Manager</h3> 
 					<p id="location"><i class="fas fa-map-marker-alt"></i> Miami, FL</p>
 					<div id="contact-btn"><a href="mailto:r.muslimani@gmail.com">Contact</a></div>
 				</div>
